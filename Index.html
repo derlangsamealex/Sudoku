@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script language="javascript" type="text/javascript" src="program.js"></script>  
+		<link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+      <div>
+        <button onclick=start();>Solve Sudoku</button>
+      </div>
+      <div id="mother" style="position:absolute; top:0px; left:0px; width:360px; height:512px; background:black; zoom:100%; display:none;">
+        <div class="border" style="top:10px; left:100px; width:150px; height:20px; position:absolute;">
+          <div class="loadbar" style="width:0%; height:20px; position:absolute;">0%</div>
+        </div>
+        <button class="buttons" onclick=initgame(); style="top:5px; left:5px">go</button>        
+       </div>
+    </body>
+</html>
